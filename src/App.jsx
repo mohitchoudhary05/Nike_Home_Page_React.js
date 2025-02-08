@@ -1,4 +1,5 @@
 import './App.css'
+// import  './Hero.css'
 import Navigation from '../Components/Navigation'
 import Hero from '../Components/Hero'
 function App() {

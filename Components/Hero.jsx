@@ -22,7 +22,7 @@ const Hero = () => {
 
       </div>
       <div className="hero-img">
-      <img src="/src/assets/images/shoe_image.png" alt="shoes Image" />
+      <img src="https://firebasestorage.googleapis.com/v0/b/my-application-df392.appspot.com/o/shoe_image.png?alt=media&token=467bc575-4410-4644-8ffe-c62fdfd27ee6" alt="shoes Image" />
       </div>
     </main>
   )

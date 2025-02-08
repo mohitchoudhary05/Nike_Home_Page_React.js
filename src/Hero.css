@@ -1,0 +1,110 @@
+/* Base styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-btn button {
+    padding: 0.8rem 1.5rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero-btn .secondry-btn {
+    background-color: transparent;
+    border: 1px solid #000;
+  }
+  
+  .shopping {
+    margin-top: 2rem;
+  }
+  
+  .shopping p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .brand-icons img {
+    width: 100px;
+    margin-right: 1rem;
+  }
+  
+  .hero-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  
+    .hero-btn {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .hero-btn button {
+      margin: 0.5rem;
+    }
+  
+    .brand-icons img {
+      width: 80px;
+    }
+  
+    .hero-img {
+      margin-top: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .hero-content p {
+      font-size: 0.9rem;
+    }
+  
+    .hero-btn button {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+  
+    .brand-icons img {
+      width: 30px;
+    }
+  }

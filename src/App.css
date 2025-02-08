@@ -82,4 +82,7 @@ button {
     flex-direction: column;
     gap: 36px;
 }
-
+.logo{
+/* align-content: center;     */
+margin-top: 7px;
+}
